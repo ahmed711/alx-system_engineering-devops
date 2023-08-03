@@ -1,5 +1,2 @@
 #!/bin/bash
-for file in $(ls)
-do
-	echo "$file" | grep -E "^[A-Z]" && mv $file /tmp/u/ || true
-done
+mv [A-Z]* /tmp/u
