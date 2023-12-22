@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# printing Best school x 10
+while read -r p
+do
+	echo "$p" | cut -d ":" -f 1,3,6
+done < /etc/passwd
