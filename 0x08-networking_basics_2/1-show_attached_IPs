@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# display Ips of a machine
+
+hostname -I | cut -d' ' -f1 ; hostname -i
