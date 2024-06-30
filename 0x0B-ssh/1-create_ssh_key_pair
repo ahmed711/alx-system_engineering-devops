@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Generate a private key with name school and pp betty
+ssh-keygen -f ./school -b 4096 -N betty
